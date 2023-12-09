@@ -19,7 +19,7 @@ namespace Tyuiu.BratsunDA.Sprint6.Task4.V12
             InitializeComponent();
         }
         DataService ds = new DataService();
-        private void buttonDone_SDA_Click(object sender, EventArgs e)
+        private void buttonDone_BDA_Click(object sender, EventArgs e)
         {
             try
             {
@@ -53,12 +53,12 @@ namespace Tyuiu.BratsunDA.Sprint6.Task4.V12
             }
         }
 
-        private void buttonHelp_SDA_Click(object sender, EventArgs e)
+        private void buttonHelp_BDA_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 4 выполнил студент группы ПКТБ-23-1 Брацун Данила Александрович", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void buttonSave_SDA_Click(object sender, EventArgs e)
+        private void buttonSave_BDA_Click(object sender, EventArgs e)
         {
             try
             {

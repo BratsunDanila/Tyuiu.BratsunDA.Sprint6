@@ -65,7 +65,7 @@ namespace Tyuiu.BratsunDA.Sprint6.Task4.V12
             this.buttonHelp_BDA.TabIndex = 19;
             this.buttonHelp_BDA.Text = "Справка";
             this.buttonHelp_BDA.UseVisualStyleBackColor = false;
-            this.buttonHelp_BDA.Click += new System.EventHandler(this.buttonHelp_SDA_Click);
+            this.buttonHelp_BDA.Click += new System.EventHandler(this.buttonHelp_BDA_Click);
             // 
             // buttonDone_BDA
             // 
@@ -78,7 +78,7 @@ namespace Tyuiu.BratsunDA.Sprint6.Task4.V12
             this.buttonDone_BDA.TabIndex = 18;
             this.buttonDone_BDA.Text = "Выполнить";
             this.buttonDone_BDA.UseVisualStyleBackColor = false;
-            this.buttonDone_BDA.Click += new System.EventHandler(this.buttonDone_SDA_Click);
+            this.buttonDone_BDA.Click += new System.EventHandler(this.buttonDone_BDA_Click);
             // 
             // groupBoxOutput_BDA
             // 
@@ -216,7 +216,7 @@ namespace Tyuiu.BratsunDA.Sprint6.Task4.V12
             this.buttonSave_BDA.TabIndex = 18;
             this.buttonSave_BDA.Text = "Сохранить";
             this.buttonSave_BDA.UseVisualStyleBackColor = false;
-            this.buttonSave_BDA.Click += new System.EventHandler(this.buttonSave_SDA_Click);
+            this.buttonSave_BDA.Click += new System.EventHandler(this.buttonSave_BDA_Click);
             // 
             // FormMain
             // 
